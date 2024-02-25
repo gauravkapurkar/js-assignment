@@ -1,0 +1,31 @@
+Service Description:
+This service is a backend for a sports app.
+It has 3 entities - Sport, Tour and Match.
+Each sport has multiple tours and each tour has multiple matches.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Problem 1
+Endpoint /tour/matches returns all the matches for a given tour name.
+The endpoint latency increases linearly with the number of tours. Modify the endpoint to increase the performance.
+
+Problem 2
+Modify the endpoint /sport/tour/match to also return match's id, startTime and format
+
+Problem 3
+Requirement: News Support for Matches and Tours
+Functional Requirements:
+    1. News can be created for a match or a tour.
+    2. Each news created for a match also belongs to the corresponding tour.
+    3. Each news created for a tour also belongs to the corresponding sport.
+Technical Requirements:
+    1. Create an endpoint to create news.
+    2. Create an endpoint to fetch news by match id
+    3. Create an endpoint to fetch news by tour id
+    4. Create an endpoint to fetch news by sport id
+News Model
+{
+    title: string,
+    description: string
+}
+

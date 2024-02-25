@@ -1,0 +1,5 @@
+How to run?
+1. Install docker and docker-compose
+2. To start the service, run the following command from the home folder of the service: docker-compose up -d
+
+Service will be available at http://localhost:3000

@@ -1,0 +1,7 @@
+1. All the DB changes to be done in /migration/base.sql file
+2. Write test cases for the new functionality
+3. Submit the assignment by creating github repo and share the link with us
+4. If you want to use any other language/framework,
+   implement the additional functionality (Problem 3) in your preferred language,
+   problem 1 and 2 needs to be done in the given assignment folder
+   but use the same database as this assignment and run them both in parallel in docker.
