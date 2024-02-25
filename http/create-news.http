@@ -1,0 +1,10 @@
+POST http://localhost:3000/news HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "MSD retired ?",
+    "description": "rumours of MSD retiring in IPL 24",
+    "matchId": 1
+    # "tourId": 1
+    
+}
